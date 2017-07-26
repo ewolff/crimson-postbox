@@ -1,43 +1,32 @@
-# RoCA LAS Postbox
+# Crimson Postbox
+
+A Postbox application.
 
 ## Prerequisites
 
 ```
-Java 8 
-Maven
-node.js >= 4.0
-```
-
-## Run with:
-
-```
-npm install
-npm run compile
-mvn spring-boot:run
-```
-You can visit http://localhost:9000 to see the application.
-
-### general documentation
-
-This repository was created as part of the evaluation project "single page application (SPA) and rest oriented client architecture (RoCA)". [More information] (http://lvm-it.github.io) 
-
-
-## Deutsche Version
-
-### Vorraussetzungen
-```
 Java 8
 Maven
+Node.js
 ```
-### Anwendung starten
+
+## Getting Started
 
 ```
 npm install
-npm run compile
 mvn spring-boot:run
 ```
-Sie finden die Anwendung unter http://localhost:9000.
 
-### Allgemeine Dokumentation
+You can visit http://localhost:9000 to see the application.
 
-Dieses Projekt ist entstanden im Rahmen einer Evaluation der Architekturen Single Page Application (SPA) und rest oriented client architecture (ROCA). Weitere Informationen befinden sich [hier] (http://lvm-it.github.io)
+## History
+
+The first version was created in the evaluation project "single page application
+(SPA) and rest oriented client architecture (ROCA)". [More
+information](http://lvm-it.github.io).
+
+## License & Contributing
+
+This repository is licensed to you under the terms of the MIT license by
+[Tossca](https://tossca.org/). To contribute, please register as a contributor
+at https://www.tossca.org.

@@ -1,3 +1,3 @@
-import 'lvm-las-assets'
+import 'crimson-styleguide'
 
 console.log('Welcome from Spring')
