@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-      lang="en"
       xmlns:th="http://www.thymeleaf.org" th:fragment="page">
 
 <head>
@@ -22,7 +21,7 @@ new google.translate.TranslateElement({pageLanguage: 'de'}, 'google_translate_el
 
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-<div th:replace="nav :: nav"/>
+    <div th:replace="nav :: nav"/>
 
     <div class="container" th:include="this :: content" />
 
